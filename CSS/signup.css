@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Nunito';
+    background-color: #f4f4f4;
+    margin-top: 80px;
+    background: url('https://img.freepik.com/premium-photo/modern-technology-business-virtual-background_769134-102.jpg?w=1380')
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+
+.signup-box {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.7);
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+
+a {
+    color: #ff6b6b;
+}
+
+a:hover {
+    color: #ff4757;
+}
+
+
+.error-message {
+    font-size: 12px;
+    display: block;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+
+#passwordStrength {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+#passwordStrength.weak {
+    color: #ff6b6b;
+}
+
+#passwordStrength.moderate {
+    color: #ffbf00;
+}
+
+#passwordStrength.strong {
+    color: #28a745;
+}
+
+
+@media (max-width: 576px) {
+    .signup-box {
+        width: 90%;
+    }
+}

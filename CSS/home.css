@@ -1,0 +1,41 @@
+body {
+    font-family: "Nunito";
+    background-color: #f8f9fa;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #ff6b6b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff4757;
+}
+
+footer {
+    margin-top: 20px;
+}

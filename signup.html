@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Art Gallery</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Sign Up Form Section -->
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="signup-box shadow-lg rounded p-5 bg-white">
+            <h2 class="text-center mb-4">Sign Up</h2>
+            <form id="signupForm">
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+                    <small class="error-message text-danger" id="emailError"></small>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" class="form-control" placeholder="Enter your phone number" required>
+                    <small class="error-message text-danger" id="phoneError"></small>
+                </div>
+                <div class="form-group mb-3">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Create a password" required>
+                    <small class="error-message text-danger" id="passwordError"></small>
+                    <div id="passwordStrength"></div>
+                </div>
+                <button type="submit" class="btn btn-success w-100">Sign Up</button>
+            </form>
+            <p class="text-center mt-3">Already have an account? <a href="index.html">Login</a></p>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
